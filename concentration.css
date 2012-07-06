@@ -1,0 +1,26 @@
+/* 
+Copyright (c) 2012 Mark Robinson
+This code is licensed under MIT license (see LICENSE.txt for details)
+[github url]
+*/
+body {
+	background:#fff;
+}
+
+canvas {
+	margin:-2.5px;
+}
+
+#paper {
+	width:1000px;
+	height:850px;
+	margin:auto;
+	background-repeat:no-repeat;
+	padding:5px;
+}
+
+#actions {
+	padding:10px;
+	width:995px;
+	margin:auto;
+}

@@ -1,0 +1,62 @@
+<!--  
+Copyright (c) 2012 Mark Robinson
+This code is licensed under MIT license (see LICENSE.txt for details)
+[github url]
+-->
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SAFTY CONCENTRATION</title>
+		<link rel="stylesheet" type="text/css" href="concentration.css" />
+		<script type="text/javascript" src="concentration.js"></script>
+	</head>
+
+	<body onload="init();">
+		<div id="paper">
+			
+			<img id="puzzle" src="puzzles/puzzle1.png" 
+				style="position:absolute;z-index:-1; height:845px; width:995px;" />
+			
+			<canvas id="block0" width="200" height="170" onclick="clickTile(0);"></canvas>
+			<canvas id="block1" width="200" height="170" onclick="clickTile(1);"></canvas>
+			<canvas id="block2" width="200" height="170" onclick="clickTile(2);"></canvas>
+			<canvas id="block3" width="200" height="170" onclick="clickTile(3);"></canvas>
+			<canvas id="block4" width="200" height="170" onclick="clickTile(4);"></canvas>
+					
+			<canvas id="block5" width="200" height="170" onclick="clickTile(5);"></canvas>			
+			<canvas id="block6" width="200" height="170" onclick="clickTile(6);"></canvas>
+			<canvas id="block7" width="200" height="170" onclick="clickTile(7);"></canvas>
+			<canvas id="block8" width="200" height="170" onclick="clickTile(8);"></canvas>
+			<canvas id="block9" width="200" height="170" onclick="clickTile(9);"></canvas>	
+					
+			<canvas id="block10" width="200" height="170" onclick="clickTile(10);"></canvas>			
+			<canvas id="block11" width="200" height="170" onclick="clickTile(11);"></canvas>
+			<canvas id="block12" width="200" height="170" onclick="clickTile(12);"></canvas>
+			<canvas id="block13" width="200" height="170" onclick="clickTile(13);"></canvas>
+			<canvas id="block14" width="200" height="170" onclick="clickTile(14);"></canvas>
+						
+			<canvas id="block15" width="200" height="170" onclick="clickTile(15);"></canvas>			
+			<canvas id="block16" width="200" height="170" onclick="clickTile(16);"></canvas>
+			<canvas id="block17" width="200" height="170" onclick="clickTile(17);"></canvas>
+			<canvas id="block18" width="200" height="170" onclick="clickTile(18);"></canvas>
+			<canvas id="block19" width="200" height="170" onclick="clickTile(19);"></canvas>
+						
+			<canvas id="block20" width="200" height="170" onclick="clickTile(20);"></canvas>			
+			<canvas id="block21" width="200" height="170" onclick="clickTile(21);"></canvas>
+			<canvas id="block22" width="200" height="170" onclick="clickTile(22);"></canvas>
+			<canvas id="block23" width="200" height="170" onclick="clickTile(23);"></canvas>
+			<canvas id="block24" width="200" height="170" onclick="clickTile(24);"></canvas>
+			
+		</div>
+		
+		<div id="actions">
+			<input type="button" value="Show Puzzle" onclick="showPuzzle();" />
+			<br/><br/>
+			<input type="button" value="Next Game" onclick="nextGame();" />
+			<div id="gamenumber">1</div>
+		</div>
+		
+	</body>
+
+</html>
