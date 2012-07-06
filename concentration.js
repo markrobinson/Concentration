@@ -1,6 +1,6 @@
 // Copyright (c) 2012 Mark Robinson
 // This code is licensed under MIT license (see LICENSE.txt for details)
-// [github URL]
+// https://github.com/markrobinson/Concentration
 
 var game_number = 1;
 // where each picture to match is on the board
